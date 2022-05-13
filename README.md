@@ -7,3 +7,5 @@
 #### De producten worden aan bijna alle leeftijden verkocht, met uitzondering voor producten die gevaar zijn voor jonge kinderen.
 
 #### De fuctionaliteiten die op de website moeten komen zijn: het aanklikken van een product en doorgelinkt worden naar het kunnen kopen ervan, de producten kunnen sorteren, en contact kunnen opnemen met de verkoper.
+
+[Trello Bord](https://trello.com/b/1VhssRD6/f1m4bo)
