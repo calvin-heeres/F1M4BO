@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: #000000e1;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    outline-style: outset;
+    outline-width: 0.2rem;
+    outline-color: #EE712A;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+li{
+    align-items: center;
+    -webkit-text-stroke: 0.5px #EE712A;
+}
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav > ul{
+    display: flex;
+    list-style:none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+nav > ul > li{
+    width: 100%;
+    height: 100%;
+}
+
+
+nav > ul > li > a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: white
+}
+
+.menu{
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 43%;
+    display: flex;
+    text-align: justify;
+    
+}
+
+.active{
+    -webkit-text-stroke: 0px;
+    
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.26)),url(img/wine.png);
+    background-size: 120rem 67,5rem;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+b{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 13rem;
+    align-items: center;
+    -webkit-text-stroke: 0.1px #ee722ad4;
+    height: 91vh;
+
+}
+
+h1{
+    background: #000000e1;
+    width: 1903px;
+    height: 50px;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+p{
+    background-color: white;
+    margin-left: 5rem;
+}
