@@ -17,9 +17,22 @@ header{
     border-bottom-right-radius: 5rem;
 }
 
+header:hover{
+    outline-color: blue;
+}
+
 li{
     align-items: center;
     -webkit-text-stroke: 0.5px #EE712A;
+}
+
+a:hover{
+    color: blue;
+}
+
+.active{
+    -webkit-text-stroke: 0px;
+    
 }
 
 nav{
@@ -35,7 +48,7 @@ nav > ul{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 nav > ul > li{
@@ -65,71 +78,52 @@ nav > ul > li > a{
 
 .active{
     -webkit-text-stroke: 0px;
-    
 }
 
-.imagecontainer1{
+img{
+    border-radius: 3rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.section{
+    background: black;
+    height: 75rem; /* placeholder */
+}
+
+.section--first{
+    background: white;
+}
+
+.section--second{
+    background: blue;
+}
+
+.categorieen{
+    padding-top: 5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    gap: 5rem;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin-left: 10%;
 }
 
-.imagecontainer2{
-    display: flex;
-}
-
-.imagecontainer div{
-    flex: 1;
-}
-
-
-.wijn img{
-    border: 5px solid #ee722ad4;
+.categorie{
+    width: 20rem;
+    height: 20rem;
+    background: white;
+    list-style: none;
     border-radius: 3rem;
-    width: 400px;
-    height: 400px;
-    padding: 2.5rem;
+    box-shadow: 0 2rem 2rem 0 rgba(0,0,0,0.5);
+    position: relative;
+    list-style: none;
+    border: 5px solid #ee722ad4;
 }
 
-
-.bier img{
-    border: 5px solid #ee722ad4;
-    border-radius: 3rem;
-    width: 400px;
-    height: 400px;
-    padding: 2.5rem;
-    
-}
-
-.likeur img {
-    border: 5px solid #ee722ad4;
-    border-radius: 3rem;
-    width: 400px;
-    height: 400px;
-    padding: 2.5rem;
-}
-
-.mixen img{
-    border: 5px solid #ee722ad4;
-    border-radius: 3rem;
-    width: 400px;
-    height: 400px;
-    padding: 2.5rem;
-}
-
-
-.whisky img{
-    border: 5px solid #ee722ad4;
-    border-radius: 3rem;
-    width: 400px;
-    height: 400px;
-    padding: 2.5rem;
-    
-}
-
-.mousserend img {
-    border: 5px solid #ee722ad4;
-    border-radius: 3rem;
-    width: 400px;
-    height: 400px;
-    padding: 2.5rem;
+.categorie:hover{
+    border: 5px solid blue;
 }
 
