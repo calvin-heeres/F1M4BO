@@ -69,7 +69,7 @@ nav > ul > li > a{
 }
 
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.26)),url(img/wine.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.26)),url(/img/wine.png);
     background-size: 120rem 67,5rem;
     height: 100%;
     background-repeat: no-repeat;
@@ -100,3 +100,4 @@ p{
     background-color: white;
     margin-left: 5rem;
 }
+

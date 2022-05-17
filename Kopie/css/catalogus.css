@@ -67,3 +67,69 @@ nav > ul > li > a{
     -webkit-text-stroke: 0px;
     
 }
+
+.imagecontainer1{
+    display: flex;
+}
+
+.imagecontainer2{
+    display: flex;
+}
+
+.imagecontainer div{
+    flex: 1;
+}
+
+
+.wijn img{
+    border: 5px solid #ee722ad4;
+    border-radius: 3rem;
+    width: 400px;
+    height: 400px;
+    padding: 2.5rem;
+}
+
+
+.bier img{
+    border: 5px solid #ee722ad4;
+    border-radius: 3rem;
+    width: 400px;
+    height: 400px;
+    padding: 2.5rem;
+    
+}
+
+.likeur img {
+    border: 5px solid #ee722ad4;
+    border-radius: 3rem;
+    width: 400px;
+    height: 400px;
+    padding: 2.5rem;
+}
+
+.mixen img{
+    border: 5px solid #ee722ad4;
+    border-radius: 3rem;
+    width: 400px;
+    height: 400px;
+    padding: 2.5rem;
+}
+
+
+.whisky img{
+    border: 5px solid #ee722ad4;
+    border-radius: 3rem;
+    width: 400px;
+    height: 400px;
+    padding: 2.5rem;
+    
+}
+
+.mousserend img {
+    border: 5px solid #ee722ad4;
+    border-radius: 3rem;
+    width: 400px;
+    height: 400px;
+    padding: 2.5rem;
+}
+
