@@ -6,6 +6,8 @@
 }
 
 header{
+    position: sticky;
+    top: 0;
     background: #000000e1;
     color: white;
     height: 4rem;
@@ -18,7 +20,7 @@ header{
 }
 
 header:hover{
-    outline-color: blue;
+    outline-color: #FFB900;
 }
 
 li{
@@ -27,7 +29,7 @@ li{
 }
 
 a:hover{
-    color: blue;
+    color: #FFB900;;
 }
 
 li{
@@ -110,7 +112,50 @@ h1{
 }
 
 p{
-    background-color: white;
-    margin-left: 5rem;
+    color: black;
+}
+
+.contact{
+    display: flex;
+    background: #ee722ad4;
+    border-radius: 2rem 2.5rem 0 0;
+    height: 15vh;
+    color: white;
+    padding-left: 2.5rem;
+}
+
+.contact p{
+    display: flex;
+    color: white;
+    font-size: 28px;
+    align-items: center;
+
+}
+
+.contact img{
+    display: flex;
+    align-items: center;
+    width: 2.75rem;
+    height: 2rem;
+    align-items: center;
+
+}
+
+footer{
+    background: black;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    padding-left: 3rem;
+}
+
+footer img{
+    max-width: 11rem;
+    height: 2.5rem;
+    border-radius: 0;
+    display: block;
+    margin-left: auto;
+    padding-right: 3rem;
 }
 

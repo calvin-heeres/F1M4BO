@@ -6,6 +6,8 @@
 }
 
 header{
+    position: sticky;
+    top: 0;
     background: #000000e1;
     color: white;
     height: 4rem;
@@ -18,7 +20,7 @@ header{
 }
 
 header:hover{
-    outline-color: blue;
+    outline-color: #FFB900;
 }
 
 li{
@@ -26,8 +28,12 @@ li{
     -webkit-text-stroke: 0.5px #EE712A;
 }
 
+li:hover{
+    color: #FFB900;
+}
+
 a:hover{
-    color: blue;
+    color: #FFB900;
 }
 
 .active{
@@ -88,15 +94,11 @@ img{
 
 .section{
     background: black;
-    height: 75rem; /* placeholder */
+    height: 60rem; /* placeholder */
 }
 
 .section--first{
     background: white;
-}
-
-.section--second{
-    background: blue;
 }
 
 .categorieen{
@@ -104,7 +106,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60%;
     gap: 5rem;
     flex-wrap: wrap;
     max-width: 80%;
@@ -118,12 +119,28 @@ img{
     list-style: none;
     border-radius: 3rem;
     box-shadow: 0 2rem 2rem 0 rgba(0,0,0,0.5);
-    position: relative;
     list-style: none;
     border: 5px solid #ee722ad4;
 }
 
 .categorie:hover{
-    border: 5px solid blue;
+    border: 5px solid #FFB900;
 }
 
+footer{
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+}
+
+footer img{
+    max-width: 11rem;
+    max-height: 2.5rem;
+    border-radius: 0;
+    display: block;
+    margin-left: auto;
+    padding-right: 2.5rem;
+}
