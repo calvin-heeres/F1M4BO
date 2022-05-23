@@ -20,7 +20,7 @@ header{
 }
 
 header:hover{
-    outline-color: #FFB900;
+    outline-color: #FDC311;
 }
 
 li{
@@ -29,7 +29,7 @@ li{
 }
 
 a:hover{
-    color: #FFB900;;
+    color: #FDC311;;
 }
 
 li{
@@ -111,34 +111,30 @@ h1{
     border-top-right-radius: 5rem;
 }
 
-p{
-    color: black;
-}
-
 .contact{
     display: flex;
+    padding: 2.5rem;
     background: #ee722ad4;
     border-radius: 2rem 2.5rem 0 0;
-    height: 15vh;
     color: white;
-    padding-left: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .contact p{
-    display: flex;
-    color: white;
-    font-size: 28px;
-    align-items: center;
-
+    font-size: 1.75rem;
 }
 
 .contact img{
-    display: flex;
-    align-items: center;
-    width: 2.75rem;
+    width: 3rem;
     height: 2rem;
-    align-items: center;
+}
 
+.cont{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1875rem;
 }
 
 footer{
@@ -159,3 +155,39 @@ footer img{
     padding-right: 3rem;
 }
 
+@media screen and (max-width: 1024px) {
+    b{
+        font-size: 11rem;
+    }
+    .contact p{
+        font-size: 1.6rem;
+    }
+    }
+    
+    @media screen and (max-width: 950px) {
+    b{
+        font-size: 9rem;
+    } 
+    .contact p{
+        font-size: 1.5rem;
+    }   
+    }
+    
+    
+    @media screen and (max-width: 650px) {
+    b{
+        font-size: 7rem;
+    }  
+    .contact p{
+        font-size: 1.4rem;
+    }  
+    }
+    
+    @media screen and (max-width: 480px) {
+    b{
+        font-size: 5rem;
+    }
+    .contact p{
+        font-size: 1.3rem;
+    }    
+    }
