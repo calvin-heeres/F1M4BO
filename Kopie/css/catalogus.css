@@ -10,7 +10,7 @@ html{
     position: relative;
 }
 
-header{
+.header{
     position: sticky;
     top: 0;
     background: #000000e1;
@@ -30,7 +30,6 @@ header:hover{
 
 li{
     align-items: center;
-    -webkit-text-stroke: 0.5px #EE712A;
 }
 
 li:hover{
@@ -118,10 +117,6 @@ img{
     padding-bottom: 10%;
 }
 
-.categorieen h2{
-    top: 0;
-}
-
 .categorie{
     width: 20rem;
     height: 20rem;
@@ -133,10 +128,28 @@ img{
     border: 5px solid #ee722ad4;
 }
 
+.categorie a{
+    display:block;
+    height:80%;
+    width:100%;
+}
+
+.categorie a img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.categorie header {
+    color: black;
+    height:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .categorie:hover{
     border: 5px solid #FDC311;
 }
-
 
 .footer{
     position: fixed;
@@ -153,11 +166,12 @@ img{
 
 .footer img{
     max-width: 11rem;
+    width: 10rem;
     height: 2.5rem;
     border-radius: 0;
     display: block;
     margin-left: auto;
-    padding-right: 3rem;
+    padding-right: 5rem;
 }
 
 @media screen and (max-width: 125rem) {

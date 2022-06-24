@@ -148,11 +148,12 @@ footer{
 
 footer img{
     max-width: 11rem;
+    width: 10rem;
     height: 2.5rem;
     border-radius: 0;
     display: block;
     margin-left: auto;
-    padding-right: 3rem;
+    padding-right: 2.5rem;
 }
 
 @media screen and (max-width: 1024px) {
