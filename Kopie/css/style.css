@@ -46,8 +46,6 @@ nav{
 nav > ul{
     display: flex;
     list-style:none;
-    height: 100%;
-    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
@@ -60,8 +58,6 @@ nav > ul > li{
 
 
 nav > ul > li > a{
-    height: 100%;
-    width: 100%;
     display: block;
     text-align: center;
     line-height: 60px;
@@ -85,8 +81,8 @@ nav > ul > li > a{
 
 body{
     background-image: linear-gradient(rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.26)),url(/img/wine.png);
-    background-size: 120rem 67,5rem;
-    height: 100%;
+    background-size: 120rem 60rem;
+    height: 80%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -99,8 +95,9 @@ b{
     font-size: 13rem;
     align-items: center;
     -webkit-text-stroke: 0.1px #ee722ad4;
-    height: 91vh;
+    height: 67.1vh;
     cursor: default;
+    bottom: 0;
 }
 
 h1{
